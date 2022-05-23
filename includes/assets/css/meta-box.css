@@ -1,0 +1,60 @@
+ .qs-esi-shadow .sec-title {
+    border: 1px solid #ebebeb;
+    background: #fff;
+    color: #d54e21;
+    padding: 2px 4px;
+}
+.qs-esi-shadow{
+    border:1px solid #ebebeb; padding:5px 20px; background:#fff; margin-bottom:40px;
+    -webkit-box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.1);
+    -moz-box-shadow:    4px 4px 10px 0px rgba(50, 50, 50, 0.1);
+    box-shadow:         4px 4px 10px 0px rgba(50, 50, 50, 0.1);
+}
+.achievement_table tbody td{
+  text-align: center;
+}
+.qs_custom_meta_boxes label {
+	width: 100%;
+	float: left;
+	display: block;
+	font-weight: bold;
+	margin: 0 0 10px;
+	padding: 0;
+}
+.qs_custom_meta_boxes .qs_meta_inputs {
+    padding: 15px 0;
+    border-bottom: 1px solid #e2e4e7;
+}
+.qs_custom_meta_boxes input[type="text"],.qs_custom_meta_boxes input[type="number"], .qs_custom_meta_boxes select, .qs_custom_meta_boxes textarea{
+	width: 100%;
+	padding: 3px 5px;
+}
+.qs_meta_inputs .qs_meta_inputs_half {
+    width: 47% !important;
+    border-right: 1px solid #e2e4e7;
+    padding: 0 15px;
+    display: inline-block;
+}
+.qs_meta_inputs .qs_meta_inputs_half:last-child {
+    border: none;
+}
+.qs_meta_inputs .hidden_mod{
+	display: none;
+}
+
+/*.qs_custom_meta_boxes input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}*/
+
+/* IMAGE STYLES */
+/*.qs_custom_meta_boxes input[type="radio"] + img {
+  cursor: pointer;
+}*/
+
+/* CHECKED STYLES */
+/*.qs_custom_meta_boxes input[type="radio"]:checked + img {
+  outline: 2px solid #f00;
+}*/
